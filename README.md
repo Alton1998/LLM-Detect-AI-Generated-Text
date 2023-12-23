@@ -9,7 +9,7 @@
 1. 1. test|train_essays.csv
    2. train_prompts.csv
    3. sample_submission.csv
-## Preprocessing
+## Creating a Pretrained Model
 
 When looking at the `train_essays.csv` our distribution of the data is looking skewed
 
@@ -18,6 +18,24 @@ When looking at the `train_essays.csv` our distribution of the data is looking s
 So we will need external data one such promising data set found was [DeepFakeText](https://github.com/yafuly/DeepfakeTextDetect) there are others as well listed [here](https://github.com/NLP2CT/LLM-generated-Text-Detection?tab=readme-ov-file#datasets).
 
 This dataset is loaded using the [Hugging face API](https://huggingface.co/docs/datasets/load_hub)
+
+### Which model do we choose?
+
+Lets consider two types of models:
+1. Machine Learning Models
+2. Deep Learning Models
+
+#### Machine Learning Models
+
+#### Deep Learning Models.
+
+1. CNN used for Sentence Classification
+2. Bi directional LSTM(BiLSTM) that is used for sequence tagging
+3. Attention Based bidirectional LSTM for relational Classificaition and topic based sentiment analysis
+4. BERT for word embedding taking into account left and right semantic contexts
+
+
+
 
 
 
