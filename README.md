@@ -6,5 +6,10 @@
 
 ### File and Fields
 
-1. test|train_essays.csv
-2. 2.
+1. 1. test|train_essays.csv
+   2. train_prompts.csv
+   3. sample_submission.csv
+## Preprocessing
+
+When looking at the `train_essays.csv`
+
