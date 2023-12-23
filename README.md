@@ -11,5 +11,8 @@
    3. sample_submission.csv
 ## Preprocessing
 
-When looking at the `train_essays.csv`
+When looking at the `train_essays.csv` our distribution of the data is looking skewed
+
+![image](https://github.com/Alton1998/LLM-Detect-AI-Generated-Text/assets/39479720/2077b664-df03-4cb5-b7c8-e6fc373030f6)
+
 
