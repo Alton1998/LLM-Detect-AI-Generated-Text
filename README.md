@@ -9,6 +9,17 @@
 1. 1. test|train_essays.csv
    2. train_prompts.csv
    3. sample_submission.csv
+## Preprocessing
+
+Below are some of the preprocessing options:
+1. Word Embedding
+2. Word2Vec
+3. Word C
+4. ounts, Stop word Counts, punctuation counts and uniqueness factors
+5. Removing Stop words
+6. Split words as tokens
+7. Vecotorizing the tokens using 
+
 ## Creating a Pretrained Model
 
 When looking at the `train_essays.csv` our distribution of the data is looking skewed
@@ -26,6 +37,8 @@ Lets consider two types of models:
 2. Deep Learning Models
 
 #### Machine Learning Models
+1. Bayesian Filtering classifiers used to detect sentiments in an email and classify emails as HAM and SPAM.
+2. 
 
 #### Deep Learning Models.
 
@@ -33,6 +46,12 @@ Lets consider two types of models:
 2. Bi directional LSTM(BiLSTM) that is used for sequence tagging
 3. Attention Based bidirectional LSTM for relational Classificaition and topic based sentiment analysis
 4. BERT for word embedding taking into account left and right semantic contexts
+5. THEMIS an RCNN model used to recognise phishing messages
+6. Hybrid CNN Model used for both images and texts
+
+## References
+
+1. [Yaseen, Qussai. "Spam email detection using deep learning techniques." Procedia Computer Science 184 (2021): 853-858.](https://www.sciencedirect.com/science/article/pii/S1877050921007493)
 
 
 
